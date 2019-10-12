@@ -1,0 +1,17 @@
+.composition {
+  position: relative;
+}
+
+.composition__photo {
+  width: 55%;
+  -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+          box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+  border-radius: 2px;
+  position: absolute;
+}
+
+.composition__photo--pt3 {
+  left: 0;
+  top: -2rem;
+}
+/*# sourceMappingURL=composition.css.map */
