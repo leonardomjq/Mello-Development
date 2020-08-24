@@ -426,8 +426,9 @@ body::-webkit-scrollbar-thumb {
 footer {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
-  padding: 40px 100px;
+  padding: 40px;
   flex-grow: 1;
   font-size: 1.8rem;
   font-weight: 200;
@@ -444,6 +445,7 @@ footer {
 
 .logo__footer {
   margin-right: 20px;
+
 }
 
 .footer__img {
@@ -457,6 +459,7 @@ footer {
 .social_links a {
   text-decoration: none;
   padding: 0 10px;
+
 }
 
 .social_links i {
@@ -476,6 +479,7 @@ footer {
 
 .copyright {
   font-size: 14px;
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -497,5 +501,21 @@ footer {
     letter-spacing: 0.2rem;
   }
 
+  .footer_subsection {
+    margin: 0 auto;
+  }
+
+  .logo__footer {
+    margin-right: 0;
+  }
+
+  .contact__footer {
+    justify-content: center;
+  }
+
+  .social_links {
+    align-self: center;
+    padding-top: 15px;
+  }
 
 }
