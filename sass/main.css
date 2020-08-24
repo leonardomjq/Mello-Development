@@ -315,11 +315,12 @@ body::-webkit-scrollbar-thumb {
 
 .header {
   height: 100vh;
-  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(2, 27, 121, 0.78)), to(rgba(5, 117, 230, 0.78))), url(../img/header-compressor.jpg);
-  background-image: linear-gradient(to right bottom, rgba(2, 27, 121, 0.78), rgba(5, 117, 230, 0.78)), url(../img/header-compressor.jpg);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(2, 27, 121, 0.78)), to(rgba(5, 117, 230, 0.78))), url(../img/bg.jpg);
+  background-image: linear-gradient(to right bottom, rgba(2, 27, 121, 0.78), rgba(5, 117, 230, 0.78)), url(../img/bg.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
+
 }
 
 .header__logo {
@@ -425,6 +426,7 @@ body::-webkit-scrollbar-thumb {
 footer {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 40px 100px;
   flex-grow: 1;
   font-size: 1.8rem;
@@ -435,6 +437,7 @@ footer {
 
 .contact__footer {
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
   line-height: 24px;
 }
@@ -463,6 +466,7 @@ footer {
 .footer_subsection {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
